@@ -114,3 +114,13 @@ p {
 .project .button {
     margin-top: 10px;
 }
+footer{
+    text-align: center;
+    margin: 100px;
+}
+footer h2{
+    font-size: 35px;
+}
+footer p{
+    margin-top: 100px;
+}
