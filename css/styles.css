@@ -19,7 +19,12 @@ nav {
     width: 100%;
     font-size: 14px;
 }
+nav ul {
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
 
+}
 nav ul li {
     display: inline-block;
     margin: 0 30px;
@@ -27,18 +32,21 @@ nav ul li {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+nav li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
 
+}
 body, ul {
     margin: 0;
     padding: 0;
 }
 
-nav ul {
-    margin: 0 auto;
-    text-align: center;
-    padding: 30px;
 
-}
 
 header {
 
@@ -78,8 +86,12 @@ ul li {
     color: black;
     margin-top: 40px;
     display: inline-block;
+    transition: background 0.5s ease-in-out,color 0.5s ease-in-out ;
 }
-
+.button:hover{
+    background: black;
+    color: white;
+}
 figcaption {
     font-size: 10px;
     margin-top: 10px;
@@ -126,4 +138,10 @@ footer p{
 }
 .right-aligment {
     text-align: right;
+}
+li.empty{
+    width: 90px;
+    border-top: 1px solid black;
+    top:-5px;
+    position: relative;
 }
