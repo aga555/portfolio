@@ -40,9 +40,14 @@ nav ul {
 
 }
 header{
-    top:120px;
+
+    top:70px;
     position: relative;
     margin-bottom: 220px;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -140px;
 }
 h1{
  font-size: 100px;
