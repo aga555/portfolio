@@ -5,4 +5,8 @@ body {
 h1, h2, .skills-list {
     font-family: 'Inknut Antiqua', serif;
 }
+img {
+ /*   this is limiting the width of the image, 100% width of the parent maximum*/
+    max-width: 100%;
+}
 
