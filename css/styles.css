@@ -77,6 +77,26 @@ ul li {
     list-style: none;
     margin: 10px 0;
 }
+.ng {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.ng:hover {
+    background-color: #555;
+}
+
+.ng:active {
+    background-color: black;
+}
+
+.ng:visited {
+    background-color: #ccc;
+}
+
 
 .button {
     border: 1px solid black;
