@@ -10,6 +10,7 @@ h1, h2, .skills-list {
 img {
     /*   this is limiting the width of the image, 100% width of the parent maximum*/
     max-width: 100%;
+    border-radius: 15px;
 }
 
 nav {
@@ -122,6 +123,10 @@ figcaption {
     margin-top: 30px;
     border-radius: 15px;
 
+
+}
+.img :hover  {
+    opacity: 0.3;
 }
 
 .skills-list {
